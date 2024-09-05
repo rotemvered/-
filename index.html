@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>תוכנית חיסכון למשפחות</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8e6f1;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            text-align: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 50px;
+            border: 3px solid #e1bee7;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            max-width: 200px;
+        }
+
+        h1 {
+            color: #4caf50; /* צבע ירוק */
+            font-size: 28px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #6a1b9a;
+            text-align: right;
+        }
+
+        .cta {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #fff;
+            background-color: #ba68c8;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .cta:hover {
+            background-color: #ab47bc;
+        }
+
+        form {
+            margin-top: 20px;
+            text-align: right;
+        }
+
+        input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #ec407a;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #d81b60;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .image-section {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .image-section img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://scontent.fhfa1-1.fna.fbcdn.net/v/t39.30808-6/302418302_489307839871721_1759419136699907832_n.jpg?stp=dst-jpg_s960x960&_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=EKxbUMwgJXUQ7kNvgGBtCFX&_nc_ht=scontent.fhfa1-1.fna&oh=00_AYATpqunK1dIvP-m1W9Or2Ta6dT50c-lNBea0a11pqLwow&oe=66DF2F06" alt="לוגו סינרביט סוכנות לביטוח">
+        </div>
+
+        <h1>תוכנית חיסכון למשפחות – תשואה של 7% ונזילות מלאה!</h1>
+        <p>תוכנית חיסכון גמישה עם הפקדה חודשית לפי בחירתכם ותשואה שנתית של 7%. התוכנית מתאימה לכולם, ללא מגבלה על גובה ההפקדה, וכוללת נזילות מלאה בכל רגע.</p>
+
+        <a href="#form" class="cta">השאירו פרטים והתחילו לחסוך להגשמת חלום המשפחה!</a>
+
+        <div class="image-section">
+            <img src="https://example.com/family_savings.jpg" alt="תמונה משפחתית חוסכת">
+        </div>
+
+        <form id="form" action="/submit" method="post">
+            <input type="text" name="fullname" placeholder="שם מלא" required>
+            <input type="email" name="email" placeholder="דוא"ל" required>
+            <input type="text" name="phone" placeholder="טלפון" required>
+            <input type="submit" value="שלח">
+        </form>
+
+        <div class="footer">
+            <p>בברכה,<br> רותם ורד סוכן ביטוח</p>
+        </div>
+    </div>
+</body>
+</html>
